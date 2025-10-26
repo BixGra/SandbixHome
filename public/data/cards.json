@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Travailler avec nous",
+    "content": {
+      "fr": "Contactez nous ici pour discuter de vos projets !",
+      "en": "tmp"
+    },
+    "image": "work_with_us.jpg",
+    "link": "contact.sandbix.fr"
+  },
+  {
+    "title": "Deezer Widget for OBS",
+    "content": {
+      "fr": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat quae laudantium ad eum magnam recusandae sed hic laboriosam, perferendis sunt?",
+      "en": "tmp"
+    },
+    "image": "deezer.jpg",
+    "link": "deezer.sandbix.fr"
+  },
+  {
+    "title": "Buroast",
+    "content": {
+      "fr": "Lorem, ipsum dolor sit amet consectetur.",
+      "en": "tmp"
+    },
+    "image": "buroast.jpg",
+    "link": "buroast.sandbix.fr"
+  },
+  {
+    "title": "Pirdle",
+    "content": {
+      "fr": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat quae laudantium.",
+      "en": "tmp"
+    },
+    "image": "pirdle.jpg",
+    "link": "pirdle.sandbix.fr"
+  },
+  {
+    "title": "Pire Agenda",
+    "content": {
+      "fr": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+      "en": "tmp"
+    },
+    "image": "pire_agenda.jpg",
+    "link": "pireagenda.sandbix.fr"
+  },
+  {
+    "title": "Random Weather Widget for OBS",
+    "content": {
+      "fr": "Lorem, ipsum dolor sit amet consectetur !",
+      "en": "tmp"
+    },
+    "image": "random_weather.jpg",
+    "link": "randomweather.sandbix.fr"
+  },
+  {
+    "title": "Smash or Pass",
+    "content": {
+      "fr": "Lorem, ipsum dolor.",
+      "en": "tmp"
+    },
+    "image": "smash_or_pass.jpg",
+    "link": "sop.sandbix.fr"
+  }
+]
