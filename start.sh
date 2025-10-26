@@ -1,6 +1,6 @@
-echo "docker build . -t pireagendaapi"
+echo "docker build . -t home"
 
-docker build . -t pireagendaapi
+docker build . -t home
 
 echo "docker compose up -d --remove-orphans"
 
