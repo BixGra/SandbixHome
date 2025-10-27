@@ -7,14 +7,18 @@ function Header({ language = 'fr', setLanguage }: HeaderProps) {
   return (
     <div className='header'>
       <div className='header-left'>
-        <div className='logo'>Logo</div>
-        <div className='title'>Title</div>
+        <img className='logo' src='./images/logo.png' alt='Logo' />
+        <div className='title'>Sandbix</div>
       </div>
       <div
         className='language'
-        onClick={() => setLanguage(language === 'fr' ? 'en' : 'fr')}
+        onClick={() => {
+          const newLanguage = language === 'fr' ? 'en' : 'fr';
+          localStorage.setItem('language', newLanguage);
+          setLanguage(newLanguage);
+        }}
       >
-        Language
+        {language === 'fr' ? 'EN' : 'FR'}
       </div>
     </div>
   );

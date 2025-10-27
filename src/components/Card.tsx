@@ -9,6 +9,7 @@ interface CardProps {
   title: string;
   content: string;
   image: string;
+  link: string;
   mousePosition: Position;
 }
 
@@ -16,6 +17,7 @@ function Card({
   title = 'Title missing',
   content = 'Card content is missing.',
   image = 'placeholder.jpg',
+  link = 'https://sandbix.fr',
   mousePosition,
 }: CardProps) {
   const cardRef = useRef<HTMLDivElement>(null);
@@ -26,12 +28,9 @@ function Card({
   ): Position {
     const rect = element.getBoundingClientRect();
 
-    const percentX = ((mousePosition.x - rect.left) / rect.width) * 100;
-    const percentY = ((mousePosition.y - rect.top) / rect.height) * 100;
-
     return {
-      x: percentX,
-      y: percentY,
+      x: ((mousePosition.x - rect.left) / rect.width) * 100,
+      y: ((mousePosition.y - rect.top) / rect.height) * 100,
     };
   }
 
@@ -48,14 +47,20 @@ function Card({
   }
 
   return (
-    <div key={title} className='card' ref={cardRef}>
+    <div
+      key={title}
+      className='card'
+      ref={cardRef}
+      onClick={() => window.open(link, '_blank')}
+    >
       <div
         className='card-border'
+        // colors in css variables
         style={{
           background: `radial-gradient(
           circle at ${getGradientRatio()},
-          rgba(240, 128, 128, 1) 0%,
-          rgba(14, 14, 14, 1) 25%
+          var(--accent) 0%,
+          var(--bg) 25%
           )`,
         }}
       ></div>
@@ -65,7 +70,11 @@ function Card({
           style={{ backgroundImage: `url('/images/${image}')` }}
         />
         <div className='card-title'>{title}</div>
-        <div className='card-content'>{content}</div>
+        <div className='card-content'>
+          {content.split('\n').map((line) => (
+            <p>{line}</p>
+          ))}
+        </div>
       </div>
     </div>
   );

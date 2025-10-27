@@ -3,12 +3,16 @@ import Card from './Card.tsx';
 import type { Position } from './Card.tsx';
 
 interface CardData {
-  title: string;
+  title: {
+    fr: string;
+    en: string;
+  };
   content: {
     fr: string;
     en: string;
   };
   image: string;
+  link: string;
 }
 
 interface CardsProps {
@@ -33,9 +37,10 @@ function Cards({ language = 'fr', mousePosition }: CardsProps) {
       {cards.map((card, index) => (
         <Card
           key={index}
-          title={card.title}
+          title={card.title[language]}
           content={card.content[language]}
           image={card.image}
+          link={card.link}
           mousePosition={mousePosition}
         />
       ))}

@@ -5,7 +5,12 @@ import Header from './components/Header.tsx';
 import type { Position } from './components/Card.tsx';
 
 function App() {
-  const [language, setLanguage] = useState<'fr' | 'en'>('fr');
+  function getLanguage() {
+    if (localStorage.getItem('language') === 'en') return 'en';
+    return 'fr';
+  }
+
+  const [language, setLanguage] = useState<'fr' | 'en'>(getLanguage());
   const [mousePosition, setPosition] = useState<Position>({
     x: 0,
     y: 0,
