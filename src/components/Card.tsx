@@ -70,11 +70,10 @@ function Card({
           style={{ backgroundImage: `url('/images/${image}')` }}
         />
         <div className='card-title'>{title}</div>
-        <div className='card-content'>
-          {content.split('\n').map((line) => (
-            <p>{line}</p>
-          ))}
-        </div>
+        <div
+          className='card-content'
+          dangerouslySetInnerHTML={{ __html: content }}
+        ></div>
       </div>
     </div>
   );

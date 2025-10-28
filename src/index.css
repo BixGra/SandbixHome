@@ -21,7 +21,6 @@
 
 body {
   font-family: 'Viga', sans-serif;
-  font-size: 1.4rem;
   font-weight: 400;
   font-style: normal;
   color: var(--text);
@@ -173,6 +172,42 @@ a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+.highlight {
+  color: var(--accent);
+}
+
+.hue {
+  background: linear-gradient(
+    to right,
+    hsl(0deg 100% 50%),
+    hsl(40deg 100% 50%),
+    hsl(80deg 100% 50%),
+    hsl(120deg 100% 50%),
+    hsl(160deg 100% 50%),
+    hsl(200deg 100% 50%),
+    hsl(240deg 100% 50%),
+    hsl(280deg 100% 50%),
+    hsl(320deg 100% 50%),
+    hsl(0deg 100% 50%)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: hue-animation 8s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes hue-animation {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 0;
+  }
+}
+
 .card:hover {
   cursor: pointer;
 
@@ -188,6 +223,10 @@ a:hover {
   .card-content {
     top: 50%;
     opacity: 1;
+  }
+
+  .highlight {
+    color: var(--accent);
   }
 }
 

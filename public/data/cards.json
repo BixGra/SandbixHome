@@ -5,8 +5,8 @@
       "en": "Work with us"
     },
     "content": {
-      "fr": "Vous voulez travailler avec nous ?\nEnvoyez nous un message et on étudiera votre projet !",
-      "en": "You want to work with us?\nSend us a message and we'll have a look at your project !"
+      "fr": "Vous voulez travailler avec nous ?<br><br>Envoyez nous un message et on étudiera votre projet !",
+      "en": "You want to work with us?<br><br>Send us a message and we'll have a look at your project!"
     },
     "image": "work_with_us.jpg",
     "link": "https://bsky.app/profile/did:plc:i7dstf2xx7p36hsav6ltfemt"
@@ -17,20 +17,20 @@
       "en": "About us"
     },
     "content": {
-      "fr": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat quae laudantium.",
-      "en": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat quae laudantium."
+      "fr": "Lorem, ipsum dolor sit amet <span class=\"highlight\">consectetur</span> adipisicing elit<br><br>Placeat quae laudantium",
+      "en": "Lorem, ipsum dolor sit amet <span class=\"highlight\">consectetur</span> adipisicing elit<br><br>Placeat quae laudantium"
     },
     "image": "about.jpg",
     "link": "https://me.sandbix.fr"
   },
   {
     "title": {
-      "fr": "Widget Deezer pour OBS [WIP]",
-      "en": "Deezer Widget for OBS [WIP]"
+      "fr": "Deezer pour OBS [WIP]",
+      "en": "Deezer for OBS [WIP]"
     },
     "content": {
-      "fr": "[Bientôt disponible]\nWidget qui affiche la chanson en cours de lecture sur votre compte Deezer.\nPersonnalisable à volonté.",
-      "en": "[Available soon]\nWidget displaying the current playing song on your Deezer account.\nLimitless customization."
+      "fr": "[Bientôt disponible]<br><br>Affiche la chanson en cours sur <span class=\"highlight\">Deezer</span><br><br>Personnalisable à volonté",
+      "en": "[Available soon]<br><br>Displays the current song on <span class=\"highlight\">Deezer</span><br><br>Limitless customization"
     },
     "image": "deezer.jpg",
     "link": "https://sandbix.fr"
@@ -41,8 +41,8 @@
       "en": "Buroast"
     },
     "content": {
-      "fr": "Site de revue de bureaux pour les lives Florence alias AngleDroit.\nExiste en plusieurs version : pour les setups des viewers, avec des références aux lives de Florence; pour les setups streamers lors du Zevent 2025, avec des sondages automatisés dans le chat Twitch et l'affichage de ces derniers sur le site.\nTous les setups ont été récupérés automatiquement depuis des salons Discord.",
-      "en": "Website for Florence alias AngleDroit used for desktop reviews livestreams.\nMultiple versions available : viewers desktops, including references to Florence's channel; streamers desktops during Zevent 2025, including automated Twitch chat polls and results display on the website.\nAll the desktops have been scrapped automatically from Discord text channels."
+      "fr": "Site de revue de bureaux pour Florence (AngleDroit)<br><br><span class=\"highlight\">Intégration Twitch</span> pour la création et l'affichage de sondages<br><br>Récupération automatisée des images via Discord",
+      "en": "Desktop review website for Florence (AngleDroit)<br><br><span class=\"highlight\">Twitch integration</span> for polls creation and display<br><br>Automated pictures scrapping from Discord"
     },
     "image": "buroast.jpg",
     "link": "https://www.youtube.com/playlist?list=PLHsetHVirvnAkT285IZZW2Ec9o7lx9gCB"
@@ -53,20 +53,20 @@
       "en": "Pire Agenda"
     },
     "content": {
-      "fr": "Agenda des différentes \"Journée mondiale de\" et de divers évènement liées à la culture internet francophone (notamment Twitch).\nLa liste des journées est participative et gérée par un Google Sheet.\nLe nom vient de la communauté de Florence autoproclamée \"Pire commu\".",
-      "en": "\"World day of\" calendar. It also includes multiple dates related to french-speaking internet community.\nDatabase is handled by a semi-public Google Sheet.\nAvailable in french only."
+      "fr": "Agenda des différentes \"Journée mondiale de\"<br><br>Inclus des évènement liées à la culture internet francophone<br><br>La liste participative gérée via un <span class=\"highlight\">Google Sheet</span>",
+      "en": "\"World day of\" calendar<br><br>Includes events from french-speaking internet community<br><br>Database is handled by a <span class=\"highlight\">Google Sheet</span><br><br>Available in french only"
     },
     "image": "pire_agenda.jpg",
     "link": "https://pireagenda.sandbix.fr"
   },
   {
     "title": {
-      "fr": "Widget de météo aléatoire pour OBS",
-      "en": "Random Weather widget for OBS"
+      "fr": "Météo aléatoire pour OBS",
+      "en": "Random Weather for OBS"
     },
     "content": {
-      "fr": "A chaque rafraichissement, affiche la météo actuelle d'un endroit aléatoire dans le monde.\nUtilisable dans OBS en tant que source navigateur.",
-      "en": "Displays the current weather of a random location around the globe on each refresh.\nIt can be used in a browser source in OBS."
+      "fr": "Météo actuelle d'un endroit aléatoire dans le monde<br><br>Utilisable dans <span class=\"highlight\">OBS</span>",
+      "en": "Current weather of a random location around the globe<br><br>It can be used in <span class=\"highlight\">OBS</span>"
     },
     "image": "random_weather.jpg",
     "link": "https://randomweather.sandbix.fr"
@@ -77,8 +77,8 @@
       "en": "Smash or Pass"
     },
     "content": {
-      "fr": "Vous savez ce qu'est un Smash or Pass.\nCelui-là était pour Florence alias AngledDroit lors du Zevent 2025.\nLe site comprenait plusieurs playlists, des easter-eggs et une intégration Twitch pour les sondages.",
-      "en": "You know exactly what a Smash or Pass is.\nThis one was built for Florence alias AngleDroit during Zevent 2025.\nThe website included mulitple playlists, easter-eggs and a Twitch integration for the polls."
+      "fr": "Vous savez ce qu'est un Smash or Pass<br><br>Créé pour Florence (AngledDroit) lors du Zevent 2025<br><br>Plusieurs playlists, des easter-eggs, et<br>une intégration <span class=\"highlight\">Twitch</span> pour les sondages",
+      "en": "You know exactly what a Smash or Pass is<br><br>Created for Florence (AngleDroit) during Zevent 2025<br><br>Mulitple playlists, easter-eggs and<br>a <span class=\"highlight\">Twitch</span> integration for the polls"
     },
     "image": "smash_or_pass.jpg",
     "link": "https://www.youtube.com/watch?v=05IOiedBob8&t=10273"
@@ -89,8 +89,8 @@
       "en": "Phillips Hue API"
     },
     "content": {
-      "fr": "Pas de projet public à ce jour mais plusieurs projets privés qui exploitent les lampes Phillips Hue en temps réel.\nPeut-être utilisé pour ajouter de l'interactivité sur un live.",
-      "en": "No public project yet but multiple private ones using Phillips Hue lights in real time.\nCan be used to add interactivity to a livestream."
+      "fr": "Plusieurs outils prêts à l'emploi<br><br>Contrôle des lampes <span class=\"hue\">Phillips Hue</span> en temps réel<br><br>Contrôle possible via Twitch, OBS, site externe, ...<br><br>Pas de projet public à ce jour",
+      "en": "Multiple ready to use tools<br><br>Real time <span class=\"hue\">Phillips Hue</span> lights control<br><br>Control via Twitch, OBS, external sites, ...<br><br>No public project yet"
     },
     "image": "hue.jpg",
     "link": "https://sandbix.fr"
