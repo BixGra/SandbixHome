@@ -1,6 +1,6 @@
 interface HeaderProps {
   language?: 'fr' | 'en';
-  setLanguage: any;
+  setLanguage: (newLanguage: 'fr' | 'en') => void;
 }
 
 function Header({ language = 'fr', setLanguage }: HeaderProps) {
