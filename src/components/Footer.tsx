@@ -7,7 +7,7 @@ function Footer({ language = 'fr' }: FooterProps) {
     <div className='footer'>
       <div className='footer-grid'>
         <a href='mailto:bixente.grandjean@gmail.com' target='_blank'>
-          Mail
+          {language === 'fr' ? 'Mail' : 'Email'}
         </a>
         <a href='https://me.sandbix.fr' target='_blank'>
           Portfolio

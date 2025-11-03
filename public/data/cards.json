@@ -1,42 +1,6 @@
 [
   {
     "title": {
-      "fr": "Travailler avec nous",
-      "en": "Work with us"
-    },
-    "content": {
-      "fr": "Vous voulez travailler avec nous ?<br><br>Envoyez nous un message et on étudiera votre projet !",
-      "en": "You want to work with us?<br><br>Send us a message and we'll have a look at your project!"
-    },
-    "image": "work_with_us.jpg",
-    "link": "https://bsky.app/profile/did:plc:i7dstf2xx7p36hsav6ltfemt"
-  },
-  {
-    "title": {
-      "fr": "A propos de nous",
-      "en": "About us"
-    },
-    "content": {
-      "fr": "Lorem, ipsum dolor sit amet <span class=\"highlight\">consectetur</span> adipisicing elit<br><br>Placeat quae laudantium",
-      "en": "Lorem, ipsum dolor sit amet <span class=\"highlight\">consectetur</span> adipisicing elit<br><br>Placeat quae laudantium"
-    },
-    "image": "about.jpg",
-    "link": "https://me.sandbix.fr"
-  },
-  {
-    "title": {
-      "fr": "Deezer pour OBS [WIP]",
-      "en": "Deezer for OBS [WIP]"
-    },
-    "content": {
-      "fr": "[Bientôt disponible]<br><br>Affiche la chanson en cours sur <span class=\"highlight\">Deezer</span><br><br>Personnalisable à volonté",
-      "en": "[Available soon]<br><br>Displays the current song on <span class=\"highlight\">Deezer</span><br><br>Limitless customization"
-    },
-    "image": "deezer.jpg",
-    "link": "https://sandbix.fr"
-  },
-  {
-    "title": {
       "fr": "Buroast",
       "en": "Buroast"
     },
@@ -44,7 +8,7 @@
       "fr": "Site de revue de bureaux pour Florence (AngleDroit)<br><br><span class=\"highlight\">Intégration Twitch</span> pour la création et l'affichage de sondages<br><br>Récupération automatisée des images via Discord",
       "en": "Desktop review website for Florence (AngleDroit)<br><br><span class=\"highlight\">Twitch integration</span> for polls creation and display<br><br>Automated pictures scrapping from Discord"
     },
-    "image": "buroast.jpg",
+    "image": "buroast.png",
     "link": "https://www.youtube.com/playlist?list=PLHsetHVirvnAkT285IZZW2Ec9o7lx9gCB"
   },
   {
@@ -56,7 +20,7 @@
       "fr": "Agenda des différentes \"Journée mondiale de\"<br><br>Inclus des évènement liées à la culture internet francophone<br><br>La liste participative gérée via un <span class=\"highlight\">Google Sheet</span>",
       "en": "\"World day of\" calendar<br><br>Includes events from french-speaking internet community<br><br>Database is handled by a <span class=\"highlight\">Google Sheet</span><br><br>Available in french only"
     },
-    "image": "pire_agenda.jpg",
+    "image": "agenda.png",
     "link": "https://pireagenda.sandbix.fr"
   },
   {
@@ -68,7 +32,7 @@
       "fr": "Météo actuelle d'un endroit aléatoire dans le monde<br><br>Utilisable dans <span class=\"highlight\">OBS</span>",
       "en": "Current weather of a random location around the globe<br><br>It can be used in <span class=\"highlight\">OBS</span>"
     },
-    "image": "random_weather.jpg",
+    "image": "random_weather.png",
     "link": "https://randomweather.sandbix.fr"
   },
   {
@@ -80,7 +44,7 @@
       "fr": "Vous savez ce qu'est un Smash or Pass<br><br>Créé pour Florence (AngledDroit) lors du Zevent 2025<br><br>Plusieurs playlists, des easter-eggs, et<br>une intégration <span class=\"highlight\">Twitch</span> pour les sondages",
       "en": "You know exactly what a Smash or Pass is<br><br>Created for Florence (AngleDroit) during Zevent 2025<br><br>Mulitple playlists, easter-eggs and<br>a <span class=\"highlight\">Twitch</span> integration for the polls"
     },
-    "image": "smash_or_pass.jpg",
+    "image": "smash_or_pass.png",
     "link": "https://www.youtube.com/watch?v=05IOiedBob8&t=10273"
   },
   {
@@ -92,7 +56,43 @@
       "fr": "Plusieurs outils prêts à l'emploi<br><br>Contrôle des lampes <span class=\"hue\">Phillips Hue</span> en temps réel<br><br>Contrôle possible via Twitch, OBS, site externe, ...<br><br>Pas de projet public à ce jour",
       "en": "Multiple ready to use tools<br><br>Real time <span class=\"hue\">Phillips Hue</span> lights control<br><br>Control via Twitch, OBS, external sites, ...<br><br>No public project yet"
     },
-    "image": "hue.jpg",
+    "image": "hue.png",
     "link": "https://sandbix.fr"
+  },
+  {
+    "title": {
+      "fr": "Deezer pour OBS [WIP]",
+      "en": "Deezer for OBS [WIP]"
+    },
+    "content": {
+      "fr": "[Bientôt disponible]<br><br>Affiche la chanson en cours sur <span class=\"highlight\">Deezer</span><br><br>Personnalisable à volonté",
+      "en": "[Available soon]<br><br>Displays the current song on <span class=\"highlight\">Deezer</span><br><br>Limitless customization"
+    },
+    "image": "deezer.png",
+    "link": "https://sandbix.fr"
+  },
+  {
+    "title": {
+      "fr": "Travailler avec moi",
+      "en": "Work with me"
+    },
+    "content": {
+      "fr": "Vous voulez travailler avec moi ?<br><br>Envoyez moi un <span class=\"highlight\">message ou un mail</span> et on étudiera votre projet !",
+      "en": "You want to work with me?<br><br>Send me a <span class=\"highlight\">message or an email</span> and we'll have a look at your project!"
+    },
+    "image": "contact.png",
+    "link": "https://bsky.app/profile/did:plc:i7dstf2xx7p36hsav6ltfemt"
+  },
+  {
+    "title": {
+      "fr": "A propos de moi",
+      "en": "About me"
+    },
+    "content": {
+      "fr": "Je suis <span class=\"highlight\">Bixente/Babi'</span>, j'aime travailler des projets qui apporte une nouvelle dimension au streaming.<br><br>Cliquez pour accéder à mon protfolio !",
+      "en": "I am <span class=\"highlight\">Bixente/Babi'</span>, I love working on projects that add a layer to live streaming content.<br><br>Clic here to get to my portfolio !"
+    },
+    "image": "about.png",
+    "link": "https://me.sandbix.fr"
   }
 ]

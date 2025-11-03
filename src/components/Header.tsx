@@ -7,7 +7,6 @@ function Header({ language = 'fr', setLanguage }: HeaderProps) {
   return (
     <div className='header'>
       <div className='header-left'>
-        <img className='logo' src='./images/logo.png' alt='Logo' />
         <div className='title'>Sandbix</div>
       </div>
       <div
