@@ -65,15 +65,17 @@ function Card({
         }}
       ></div>
       <div className='card-container'>
-        <div
-          className='card-background'
-          style={{ backgroundImage: `url('/images/${image}')` }}
-        />
-        <div className='card-title'>{title}</div>
-        <div
-          className='card-content'
-          dangerouslySetInnerHTML={{ __html: content }}
-        ></div>
+        <div className='card-background-container'>
+          <div
+            className='card-background'
+            style={{ backgroundImage: `url('/images/${image}')` }}
+          />
+          <div className='card-title'>{title}</div>
+          <div
+            className='card-content'
+            dangerouslySetInnerHTML={{ __html: content }}
+          ></div>
+        </div>
       </div>
     </div>
   );
