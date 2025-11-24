@@ -2,6 +2,8 @@
 
 FROM node:24-alpine AS builder
 
+RUN npm install -g serve --prefix /usr/local/serve
+
 WORKDIR /app
 
 COPY package.json package-lock.json ./
