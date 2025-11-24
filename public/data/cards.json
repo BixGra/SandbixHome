@@ -89,8 +89,8 @@
       "en": "About me"
     },
     "content": {
-      "fr": "Je suis <span class=\"highlight\">Bixente/Babi'</span>, j'aime travailler des projets qui apporte une nouvelle dimension au streaming.<br><br>Cliquez pour accéder à mon protfolio !",
-      "en": "I am <span class=\"highlight\">Bixente/Babi'</span>, I love working on projects that add a layer to live streaming content.<br><br>Clic here to get to my portfolio !"
+      "fr": "Je suis <span class=\"highlight\">Bixente/Babi'</span>, j'aime travailler sur des projets qui apportent une nouvelle dimension au streaming.<br><br>Cliquez pour accéder à mon protfolio !",
+      "en": "I am <span class=\"highlight\">Bixente/Babi'</span>, I love working on projects that add a new layer to live streaming content.<br><br>Clic here to get to my portfolio !"
     },
     "image": "about.png",
     "link": "https://me.sandbix.fr"
